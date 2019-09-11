@@ -23,7 +23,7 @@ function computeValue(data, type, margin, exchangeRate) {
         var price = data.bpi.USD.rate_float - marginPercentage
         totalPrice = 'N' + price * exchangeRate
     }
-
+    console.log(totalPrice)
     return totalPrice
 
 }
